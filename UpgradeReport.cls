@@ -251,7 +251,7 @@
           \noindent \rule[5mm]{\linewidth}{0.5mm}
           {\large by}\\[2ex]
           {\Large \textbf \theAuthor}\\[3ex]
-          {\large Supervisor:}\\[2ex]
+          {\large Supervisors:}\\[2ex]
           {\Large \textbf \theSupervisor}\\[3ex]
 
           \noindent \rule[5mm]{\linewidth}{0.5mm}
