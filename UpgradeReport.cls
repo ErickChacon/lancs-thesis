@@ -30,7 +30,8 @@
 \usepackage{fancyhdr}                                 % Control header, footer position
 \usepackage{graphicx}                                 % Include figures
 \usepackage{setspace}                                 % Control spacing
-\usepackage[latin1]{inputenc}                         % Coding latin1
+% \usepackage[latin1]{inputenc}                         % Coding latin1
+\usepackage[utf8]{inputenc}                         % Coding with other characters
 \usepackage[english]{babel}                           % Spanish languaje
 %\usepackage{helvet}                                   % Use Arial Font
 \usepackage{color}                                    % Manage colors
