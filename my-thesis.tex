@@ -9,6 +9,11 @@
 \usepackage{blindtext}				% Random text
 \usepackage{natbib}
 \usepackage{titlesec}
+
+% % For xelatex font
+% \usepackage{fontspec}
+% \setmainfont{Ubuntu Mono derivative Powerline}
+
 \titleformat{\chapter}[display]
 {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 \titlespacing*{\chapter}{0pt}{-25pt}{40pt}
@@ -93,5 +98,5 @@
     \singlespacing                             % Single space the Bibliography
     \hackplain								   % Do not enumerate first bibliography page
     \bibliographystyle{apalike}				   % Style of bibliography
-    \addtotoc{Bibliografía}{\bibliography{BibThesis}} % Adding bibliography
+    \addtotoc{Bibliography}{\bibliography{BibThesis}} % Adding bibliography
 \end{document}

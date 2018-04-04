@@ -21,7 +21,7 @@
 % ============================================================================
 % REQUIRED PACKAGES
 % ============================================================================
-\usepackage[plainpages=false,pdfpagelabels,hidelinks,breaklinks=true]{hyperref} % Get nice PDF document links 
+\usepackage[plainpages=false,pdfpagelabels,hidelinks,breaklinks=true]{hyperref} % Get nice PDF document links
 \usepackage[letterpaper, top=3cm,bottom=3cm,right=2.5cm,left=3cm]{geometry}      % Easily set margins
 %\usepackage[letterpaper,margin=1.25in]{geometry}      % Easily set margins
 \usepackage[toc,title,page]{appendix}                 % Configure appendix formatting
@@ -30,7 +30,7 @@
 \usepackage{fancyhdr}                                 % Control header, footer position
 \usepackage{graphicx}                                 % Include figures
 \usepackage{setspace}                                 % Control spacing
-\usepackage[latin1]{inputenc}                         % Coding latin1
+% \usepackage[latin1]{inputenc}                         % Coding latin1
 \usepackage[english]{babel}                           % Spanish languaje
 %\usepackage{helvet}                                   % Use Arial Font
 \usepackage{color}                                    % Manage colors
@@ -40,11 +40,11 @@
 \usepackage{float}                                    % Exact location of figures Here
 \usepackage{enumerate}                                % Set item kind (I),(a),(A),...
 \usepackage{subcaption}                               % Subcaption of subtables or subfigures
-\usepackage{etoolbox} 
+\usepackage{etoolbox}
 \usepackage[export]{adjustbox} % figure position
 %\usepackage[T1]{fontenc} % fonts
 %\usepackage{epstopdf}                                % You should install this
-%\usepackage{appendix} 
+%\usepackage{appendix}
 % ============================================================================
 % NEW COMMANDS AND ENVIRONMENTS
 % ============================================================================
@@ -237,26 +237,26 @@
    \begin{titlepage}
    \newgeometry{top=2cm,bottom=4cm,right=2.5cm,left=3cm}
    \pagestyle{fancy} % do not put neither header nor footer
-                              
+
        \begin{center}
           \theLogo
           \newlinestretch{1.5}
           {\ }\\[12ex]
-                                                  
+
           \noindent \rule[5mm]{\linewidth}{0.5mm}
           {\sc \LARGE  \textbf \theTitle}\\[3ex]
           { \Large \theSubtitle}\\[3ex]
-                                                  
+
           \noindent \rule[5mm]{\linewidth}{0.5mm}
           {\large by}\\[2ex]
           {\Large \textbf \theAuthor}\\[3ex]
           {\large Supervisor:}\\[2ex]
           {\Large \textbf \theSupervisor}\\[3ex]
-                                                  
+
           \noindent \rule[5mm]{\linewidth}{0.5mm}
           {\large \theDocumentType submitted in partial fulfilment for the \\
           degree of \emph{\theMajor}}\\[3ex]
-                                                  
+
           \noindent \rule[5mm]{\linewidth}{0.5mm}
           {\ }\\[11ex]
           {\large \theThesisYear}\\
