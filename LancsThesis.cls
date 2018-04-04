@@ -53,7 +53,7 @@
     \fancyhf{} % clear all header and footer fields
 }}
 
-\renewcommand{\appendixpagename}{Apéndice}  % appendix name
+\renewcommand{\appendixpagename}{Appendix}  % appendix name
 \appto\frontmatter{\pagestyle{plain}}       % pagestyle frontmatter
 \appto\mainmatter{\pagestyle{fancy}}        % pagestyle mainmatter
 \appto\backmatter{\pagestyle{fancy}}        % pagestyle backmatter
